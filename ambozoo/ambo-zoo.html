@@ -5,8 +5,7 @@
     <meta name="creator" lang="en" content="Ambonique Thomas, Neil Kuldip" /> 
     <meta name="subject" lang="en" content="Practical Web Development" /> 
     <meta name="description" lang="en" content="Contents of a Minature Zoo" /> 
-    <meta name="keywords" content="zoo, koala, dolphin, bonobo, mantis shrimp, giraffe,  Megalodon
-    Sharks, African Grey Parrot, komodo dragon"/>
+    <meta name="keywords" content="zoo, Giraffe, Megalodon Sharks, African Grey Parrot, Komodo Dragon"/>
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Ambonique's Zoo</title>
@@ -16,7 +15,34 @@
     <h1>Welcome to Ambonique's zoo.</h1>
     <img src="../images/prospect_park_zoo.jpg" alt = "Ambonique's Zoo">
     <p>My zoo has 4 animals to look at while you're visiting.<br>Please enjoy your stay!</p>
-    <a href="giraffe.html">Giraffe</a>
-    <p>Giraffe</p><p>Megalodon Shark</p><p>African Grey Parrot</p><p>Komodo Dragon</p>
+
+    <pre>
+    <button onclick="window.location.href='giraffe.html';">Giraffe</button>
+
+    <button onclick="OnClick()">Megalodon Shark</button>
+
+    <script>
+      function OnClick() {
+        document.location.href = "shark.html";
+      }
+    </script>
+
+    <button onclick="OnClick()">African Grey Parrot</button>
+
+    <script>
+      function OnClick() {
+        document.location.href = "parrot.html";
+      }
+    </script>
+
+    <button onclick="OnClick()">Komodo Dragon</button>
+
+    <script>
+      function OnClick() {
+        document.location.href = "dragon.html";
+      }
+    </script>
+    
+    </pre>
   </body>
 </html>
