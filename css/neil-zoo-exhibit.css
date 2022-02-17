@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h1 {
+    margin-top: 2%;  
+}
+
+h3, h4 {
+    margin-top: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+}
+
+button.Koala {
+    background-color: purple;
+}
+button:hover.Koala {
+    background-color: #C8A2C9;
+}
+
+audio {
+    margin-top: 5px;
+}
