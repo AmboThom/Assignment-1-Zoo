@@ -41,6 +41,13 @@ button:hover.Koala {
     background-color: #C8A2C9;
 }
 
+button.Common_Dolphin {
+    background-color: #528AAE;
+}
+button:hover.Common_Dolphin {
+    background-color: #91BAD6;
+}
+
 audio {
-    margin-top: 5px;
+    margin-top: 10px;
 }
