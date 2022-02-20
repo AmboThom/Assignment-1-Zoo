@@ -37,6 +37,7 @@ button:hover {
 button.Koala {
     background-color: purple;
 }
+
 button:hover.Koala {
     background-color: #C8A2C9;
 }
@@ -44,8 +45,17 @@ button:hover.Koala {
 button.Common_Dolphin {
     background-color: #528AAE;
 }
+
 button:hover.Common_Dolphin {
     background-color: #91BAD6;
+}
+
+button.Bonobo {
+    background-color: #654321;
+}
+
+button:hover.Bonobo {
+    background-color: #D3AF7F;
 }
 
 audio {
