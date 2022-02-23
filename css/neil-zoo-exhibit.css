@@ -58,6 +58,18 @@ button:hover.Bonobo {
     background-color: #D3AF7F;
 }
 
+button.Mantis_Shrimp {
+    background-color: #2A1E5C;
+}
+
+button:hover.Mantis_Shrimp {
+    background-color: #A663CC;
+}
+
 audio {
     margin-top: 10px;
+}
+
+.rainbow {
+    color: white;
 }
