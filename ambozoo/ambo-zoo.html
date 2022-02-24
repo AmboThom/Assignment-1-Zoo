@@ -12,37 +12,23 @@
     <link rel="stylesheet" type="text/css" href="../css/index.css">
   </head>
   <body>
-    <h1>Welcome to Ambonique's zoo.</h1>
+    <h1>Ambonique's Zoo</h1>
     <img src="../images/prospect_park_zoo.jpg" alt="Ambonique's Zoo" style="border-radius: 100px;">
-    <p>My zoo has 4 animals to look at while you're visiting.<br>Please enjoy your stay!</p>
+    <section>
+      <div class= "textbox">
+        <p>Welcome to Ambonique's zoo. Here I have 4 different animal exhibits for you to vist. 
+          Each animal has their own special visiting area. Please take your time enjoying each exhibit.
+        </p>
+      </div>
+    </section>
 
-    <pre>
-    <button onclick="window.location.href='giraffe.html';">Giraffe</button>
-
-    <button onclick="OnClick()">Megalodon Shark</button>
-
-    <script>
-      function OnClick() {
-        document.location.href = "shark.html";
-      }
-    </script>
-
-    <button onclick="OnClick()">African Grey Parrot</button>
-
-    <script>
-      function OnClick() {
-        document.location.href = "parrot.html";
-      }
-    </script>
-
-    <button onclick="OnClick()">Komodo Dragon</button>
-
-    <script>
-      function OnClick() {
-        document.location.href = "dragon.html";
-      }
-    </script>
-    
-    </pre>
+    <section>
+      <div>
+        <button class="btn_links" onclick="window.location.href='giraffe.html';">Giraffe</button>
+        <button class="btn_links" onclick="window.location.href='shark.html';">Megalodon Shark</button>
+        <button class="btn_links" onclick="window.location.href='parrot.html';">African Grey Parrot</button>
+        <button class="btn_links" onclick="window.location.href='dragon.html';">Komodo Dragon</button>
+      </div>
+    </section>
   </body>
 </html>
