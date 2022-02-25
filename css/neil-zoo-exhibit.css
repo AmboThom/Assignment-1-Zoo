@@ -73,3 +73,7 @@ audio {
 .rainbow {
     color: white;
 }
+
+body.rainbow {
+    background-image: linear-gradient(red, blue);
+}
