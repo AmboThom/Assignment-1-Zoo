@@ -2,9 +2,9 @@
 
 ## Members:
 
-Ambonique Thomas -> AmboThom
+Ambonique Thomas -> [AmboThom](https://github.com/AmboThom)
 
-Neil Kuldip -> neil-kuldip
+Neil Kuldip -> [neil-kuldip](https://github.com/neil-kuldip)
 
 ### Description
 Our website has 2 zoos; one for each member. In both zoos, there are 4 different animals with their own pages for information.
